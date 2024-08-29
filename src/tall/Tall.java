@@ -1,6 +1,6 @@
 package tall;
 import javax.swing.*;
-public class Tall {
+/*public class Tall {
     public static void main (String [] args){
         String innStreng1 = JOptionPane.showInputDialog("Skriv inn et heltall:");
         String innStreng2 = JOptionPane.showInputDialog("Skriv inn et heltall til:");
@@ -10,6 +10,7 @@ public class Tall {
         System.out.println("Summen til de to tallene er "+sum);
     }
 }
+*/
 
 /*int tall1 = Integer.parseInt(innStreng1):
 Bu satır, kullanıcıdan alınan innStreng1 adlı stringi bir tamsayıya dönüştürür
@@ -17,3 +18,15 @@ ve tall1 adlı değişkene atar.
 parseInt metodu: parseInt, Integer sınıfının bir statik metodudur.
 Bu metot, bir String (metin) olarak verilen bir sayıyı alır ve
 bu değeri bir int (tamsayı) olarak döndürür. */
+
+public class Tall{
+    public static void main (String[]args){
+        String a = "5";
+        String b = "6";
+        System.out.println(a+b);
+        byte a1 = Byte.parseByte(a);
+        int b1 = Integer.parseInt(b);
+        System.out.println(a1+b1);
+}
+
+}
