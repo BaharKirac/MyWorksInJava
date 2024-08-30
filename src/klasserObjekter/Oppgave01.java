@@ -1,7 +1,7 @@
 package klasserObjekter;
 
 class Bøker {  //klasse navn lag en klasse
-    public String tittel;  //inneholder følgende attributter i denne klasse
+    String tittel;  //inneholder følgende attributter i denne klasse
     double pris;
     String forfatter;
     String isbnNummer;
