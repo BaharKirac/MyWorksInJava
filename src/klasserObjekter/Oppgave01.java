@@ -7,7 +7,7 @@ class Bøker {  //klasse navn lag en klasse
     String isbnNummer;
 
     //klassen har metod som skriver ut attributtene via sout.
-    //void cunku returnerer ikke noe, sadece skriver ut
+    //void cunku returnerer ikke noe, bare skriver ut
     public void lesBok () {
 
         System.out.println("Tittelen til boka er "+tittel+" pris er "+pris+" forfatteren er "+forfatter);

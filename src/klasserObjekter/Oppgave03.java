@@ -1,5 +1,4 @@
 package klasserObjekter;
-
 class Person{
     public String navn;
     public String adresse;
@@ -8,13 +7,11 @@ class Person{
    public int alder (){
        return 2024 - fødselsår;
    }
-
     public void lesPerson () {
         System.out.println(navn+" med adresse "+adresse+" med telefonnummer "+telefonnr+" er "+alder()+" år.");
     }
 }
 public class Oppgave03 {
-
     public static void main(String [] args){
         Person person1 = new Person();
         person1.navn = "Per Hansen";
@@ -22,7 +19,6 @@ public class Oppgave03 {
         person1.telefonnr = 22124512;
         person1.fødselsår = 2003;
         int alder = person1.alder();
-
         person1.lesPerson();
     }
 }
