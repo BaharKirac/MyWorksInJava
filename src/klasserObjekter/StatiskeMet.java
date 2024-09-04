@@ -17,6 +17,22 @@ public class StatiskeMet {
     }
 }
 
+//UTEN Å OPPRETTE OBJEKT
+/*class  BilEksempel{
+
+    //kan ha attributter, men ikke som blir brukt i metoden!.
+    public static double rekkevid(double tank,double forbruk){
+        double rekkevid = tank / forbruk;
+        return rekkevid;
+    }
+
+}
+public class StatiskeMet {
+    public static void main (String[]args){
+        double rekkevid = BilEksempel.rekkevid(80, 0.8);
+        System.out.print("Rekkevidden til bilen er "+rekkevid+" mil.");
+    }
+}*/
 
 /*
 * Statik bir metot, bir sınıfa ait olup,
