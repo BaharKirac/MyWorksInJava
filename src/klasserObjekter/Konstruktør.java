@@ -21,10 +21,14 @@ public class Konstruktør {
 
 /* Konstruktør attributleri ayarlayan bir metoddur. Siniftan bir nesne
 olusturuldugunda calisir.
+ Det er vanlig å skrive denne som første metode i klassen (etter attributtene).
 konstruktør sinifla ayni adi tasir, bu yuzden adi BUYUK HARFLE baslar.
 siniftaki tum attributler yapiciya parametre olarak gecirilir.
 This anahtar kelimesi ile sinifin adi esitlenir. this.navn=navn.
 konstruktørler programciyi nesne olusturuldugunda parametreleri girmeye zorlar.
 eksempel :
 Person001 person11 = new Person001("Line Jensen",1999);
+
+nesneleri başlatmamıza ve gerekli değerlerin yaratım sırasında ayarlanmasını sağlamamıza olanak tanır.
+Nesnelerin oluşturulmasını basitleştirebilirler. Bir sınıf için birden fazla olabilir.
  */
