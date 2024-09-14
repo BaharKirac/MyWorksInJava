@@ -10,7 +10,7 @@ class Bøker {  //klasse navn lag en klasse
     //void cunku returnerer ikke noe, bare skriver ut
     public void lesBok () {
 
-        System.out.println("Tittelen til boka er "+tittel+" pris er "+pris+" forfatteren er "+forfatter);
+        System.out.println("Tittelen til boka er "+tittel+", pris er "+pris+", forfatteren er "+forfatter+", Isbn Nummer er "+isbnNummer);
     }
 }
 public class Oppgave01 {

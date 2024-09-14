@@ -53,8 +53,6 @@ public class Sporsmal6 {
     }
 }
 
-
-
 /* Det skal lages en klasse kalt Vind.
 Denne klassen skal beregne ut i fra
 en oppgitt vindhastighet i km/t om det er stille
