@@ -38,7 +38,32 @@ ikke ; etter utrykket, men inne i strukturen
 
 //Logiske Operatorer
 /*
+Disse logiske operatorene brukes i hovedsak i if-setninger og while-løkker.
  && (og)
  || (eller)
  ! (betyr NOT eller IKKE)
+
+ *Ve (&&):
+
+İki ifadenin de doğru (true) olması gerekir ki sonuç doğru (true) olsun.
+ Aksi takdirde sonuç yanlış (false) olur.
+Örnek:
+true && true → true
+true && false → false
+
+*Veya (||):
+
+İki ifadenin birinin doğru (true) olması yeterlidir ki sonuç doğru (true) olsun.
+Sadece her iki ifade de yanlış (false) olursa sonuç yanlış olur.
+Örnek:
+true || false → true
+false || false → false
+
+*Değil (!=):
+
+Eşit değildir operatörü olarak kullanılır. Bir ifadenin tersini alır,
+yani doğruyu yanlışa, yanlışı doğruya çevirir.
+Örnek:
+!true → false
+!false → true
  */
