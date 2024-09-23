@@ -25,6 +25,7 @@ public class Oppgave01 {
 
         minBok.lesBok(); //bu attributlari ustteki sablon olan klassdan alip
                         // yeni haliyle Sys.out ile yazdirma
+        //les bok metodunu cagiirdik
 
     }
 }

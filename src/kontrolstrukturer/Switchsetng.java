@@ -40,6 +40,7 @@ belirli kod bloklarını çalıştırmak için kullanılan
 bir kontrol yapısıdır.
 
 switch Yapısının Avantajları:
+
 Kodun okunabilirliğini artırır
 Özellikle birden fazla if-else if durumu olduğunda,
 switch yapısı daha sade ve okunaklı olur.
