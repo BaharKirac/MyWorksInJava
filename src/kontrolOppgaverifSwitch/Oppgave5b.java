@@ -1,5 +1,4 @@
 package kontrolOppgaverifSwitch;
 
-public class Oppgave5 {
-
+public class Oppgave5b {
 }
