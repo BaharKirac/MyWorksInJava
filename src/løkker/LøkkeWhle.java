@@ -1,7 +1,11 @@
 
 //WHILE LØKKER-Dønguler
 /* Bir while döngüsü, belirli bir mantıksal koşulun
- doğru olduğu sürece çalışır.
+ doğru olduğu sürece çalışır. tekrar sayisi kosula baglidir.
+ kosul gerceklestigi veya gerceklesmedigi surece islemlerin tekrar ettigi dongulerdir.
+ tekrar sayisi kosula bagli donguler olarak da adlandirilir.
+ * While dongulerinde kosul ifadesi dongu basinda yer alirken
+ do while dongulerinde ise dongu sonunda yer alir.
  while (innTall > 0):
 Bu ifade şu anlama gelir:
 "Değişken innTall 0'dan büyük olduğu sürece döngüyü çalıştır."

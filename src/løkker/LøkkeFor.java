@@ -1,5 +1,24 @@
 package løkker;
 
+/* tekrarlama islemininn kac kez yapilacaginin bastan belli oldugu
+dongulerdir, ki tekrar sayisi bastan belli olan donguler olarak da adlandirilir.
+ornek: 1 den 10 a kadar olan sayilari toplayan bir programda 9 kez tekrarlama yaptiriyorsaniz
+bu tekrarlama sayisinin baslangicta belli oldugu anlamina gelir.*/
+
+
+/* syntax:
+for(dongu degiskeni=baslangic degeri;<kosul>; artim yada azalim miktari)
+{ tekrarlanacak islem 1;
+ tekrarlanacak islem 2 ;}
+
+ for(d=b; kosul; b++ veya b--){}
+ d : dongu degiskeni
+ b : baslangic degeri
+ kosul :  donguyu sonlandiracak kosul
+ b++, b-- : artim yada azalim miktarini gosterir.
+ * donguden cikisi gerceklestirecek yani kosulu saglayacak bir ifade dongu icerisinde olmalidir.
+ aksi takdirde program cikisi vermez ve sonsuz donguye girer.
+ */
 public class LøkkeFor {
     public static void main(String[] args) {
         int i = 0;
