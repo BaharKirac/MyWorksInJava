@@ -20,6 +20,7 @@ public class ClassNotesArr {
         double[] decimals = new double[3]; // desimal tall sayi dizisi tanimlama
 
         String[] names = new String[4]; //String dizisi tanimlama
+        String[] utlånsobjekter = { "bok", "CD", "DVD", "spill" };
 
     }
 }
