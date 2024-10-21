@@ -3,7 +3,7 @@ package aarrays2_Collections;
 /* Tabeller(matris) iki boyutlu tablolardir. matris de denir.
 int [][] tabell = new int[][]; bu sekilde tanimlanir 2 boyutlu diziler.
 tablonun kac satir kac sutun olacagini belirtir.
-birinci dizi satir, ikinci dizi sutun.
+birinci dizi sutun(kolon), ikinci dizi satir(rad).
 
 bunu bir array dizisi yani liste olarak da tanimlayabiliriz.
 int [][] tabell1 = {{1,2,3}, {2,4,6},{8,10,12}};
