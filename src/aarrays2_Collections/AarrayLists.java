@@ -66,7 +66,7 @@ public class AarrayLists {
 /* for løkke ile erisim
 listeyi bir dongu ile gezebiliriz
 for (int i = 0; i < personer.size(); i++){ //size yontemi listenin uzunlugunu verir
-        System.out.println(personer.get(i).navn+" "+personer.get(i).alder);
+        System.out.println(personer.get(i).navn+" "+personer.get(i).alder); get ile belirli indeksteki element cagrilir
         }
 Ole 23
 Line 21*/
