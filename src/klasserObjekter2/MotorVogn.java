@@ -57,7 +57,7 @@ public class MotorVogn {
 // Sett inn noen biler i arrayet
         Dato dato1 = new Dato(1,3,2015);
 
-        Bil1 volvo = new Bil1("Vovlo T5",dato1,"DP23456");
+        Bil1 volvo = new Bil1("Volvo T5",dato1,"DP23456");
 
         Dato dato2 = new Dato(4,10,2016);
 
