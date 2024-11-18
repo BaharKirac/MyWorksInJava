@@ -53,3 +53,11 @@ public class Arver {
         System.out.println(Ole.getNavn()+" har i lønn "+Ole.getLønn());
     }
 }
+/* composition-arv
+Eğer sınıflar arasında bir "is-a" ilişkisi varsa
+(örneğin, bir öğrenci bir kişidir),
+miras tercih edilebilir.
+Eğer sınıflar arasında bir "has-a" ilişkisi varsa
+(örneğin, bir öğrenci bir kişiye sahiptir),
+bileşim kullanılabilir.
+*/
