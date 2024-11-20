@@ -4,6 +4,7 @@ package scanners;
 //System.in: Konsoldan (klavye) veri almak için kullanılan standart giriş.
 
 /*Yapı:
+Scanner scanner = new Scanner(System.in);
 Referans türü: Scanner (Scanner sınıfı türünde bir nesne oluşturulur).
 Referans ismi: scanner (Scanner nesnesinin adı).
 Yeni bir nesne oluşturulur: new Scanner(System.in).
