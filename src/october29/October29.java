@@ -11,7 +11,7 @@ public class October29 {
         String dag = String.format("%te",date);
         System.out.println(dato);
         //eger aylardan Ekim ve gunlerden 29 ise kutlama mesajini yaz...
-        if (måned.equals("October") && dag.equals("29")){
+        if (måned.equals("November") && dag.equals("28")){
             System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXX\n"
                     +"X                                X\n"
                     +"X Cumhuriyet   Bayraminiz        X\n"
