@@ -3,7 +3,8 @@ package aarrays;
 /*  Array, aynı türden birden fazla veriyi sabit bir boyutla saklayabilen bir veri yapısıdır.
 Java'da array'ler belirli bir boyuta sahiptir ve bellekte ardışık olarak yerleştirilir.
 Array'lerin uzunluğu sabittir ve tanımlandığında değiştirilemez. Su sekilde tanimlanir:
-  // type[] arrayName = new type[arraySize];
+
+   //*type[] arrayName = new type[arraySize];
 * type: Dizide saklanacak veri tipi (örneğin, int, double, String).
 * arrayName: Dizinin adı, herhangi bir geçerli değişken adı olabilir.
 * arraySize: Dizinin boyutu, yani kaç eleman saklayacağı.
