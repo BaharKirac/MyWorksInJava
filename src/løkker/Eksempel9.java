@@ -6,6 +6,7 @@ public class Eksempel9 {
         System.out.print("Restoran menusundeki yemekler: ");
         for (int i=0; i<menu.length; i++){
             System.out.println("- "+menu[i]);
+           // System.out.println(menu[3]);
         }
 
     }

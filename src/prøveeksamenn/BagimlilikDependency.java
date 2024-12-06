@@ -29,7 +29,7 @@ public class BagimlilikDependency {
         Musteri musteri = new Musteri("Ayse");
         Banka banka = new Banka();
 
-        banka.krediVer();
+        //banka.krediVer();
 
     }
 }
