@@ -70,10 +70,10 @@ Bu metot, meydana gelen exception ile ilgili hata mesajını döndürür.
 Bu metot, exception'ın nerede ve hangi satırda
 meydana geldiğini gösteren bir hata izi (stack trace) yazdırır.
 
-*****Håndtere Unntak (Exception Yönetimi)*****
+!Håndtere Unntak (Exception Yönetimi)*****
 Java'da exception'lar şu yapılarla yönetilir:
 
-A- *___try-catch-finally Blokları___*
+ *___try-catch-finally Blokları___*
 try: Hatalı olabilecek kodu yazarız.
 catch: Hata meydana geldiğinde, exception'ı burada yakalarız.
 finally: Hata olsa da olmasa da çalışır; genellikle kaynakları serbest bırakmak için kullanılır.
@@ -82,12 +82,13 @@ code
 try {
     int result = 10 / 0; // ArithmeticException
 } catch (ArithmeticException e) {
-    System.out.println("Bir hata oluştu: " + e.getMessage());
+    System.out.println("Bir hata oluştu: " + e.getMessage());  try{ int result = 10/0; } catch(aritmetixExc e) { sout(bir hata olustu + get.message()};
+
 } finally {
     System.out.println("Bu blok her zaman çalışır.");
 }
 
-B- *___throws ile Exception Fırlatma___*
+ *___throws ile Exception Fırlatma___*
 Bir metodun exception fırlatabileceğini belirtir.
 Kullanıcı bu exception'ı ele almak zorundadır.
 Örnek:

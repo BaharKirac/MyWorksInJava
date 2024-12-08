@@ -102,6 +102,8 @@ public class EksempelMetod {
             }
         }
     }
+
+    //!main metoden
     public static void main(String[] args) {
         EksempelMetod assignemnet = new EksempelMetod();
         System.out.println(assignemnet.isNumberSmallMediumOrBig(15));
