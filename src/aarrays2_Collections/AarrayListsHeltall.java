@@ -11,6 +11,9 @@ public class AarrayListsHeltall {
         liste.add(-2);
         liste.add(-5);
 //liste.remove(22); bu sekilde yapamayiz, bir ogeyi silmek icin once indexi bulunmali sonra remove edilmeli
+        int indekss = liste.indexOf(-2);
+        liste.remove(indekss);
+
         int indeks = liste.indexOf(22);
         liste.remove(indeks);
 

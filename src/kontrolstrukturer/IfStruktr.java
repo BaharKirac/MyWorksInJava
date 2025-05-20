@@ -41,7 +41,7 @@ ikke ; etter utrykket, men inne i strukturen
 Disse logiske operatorene brukes i hovedsak i if-setninger og while-løkker.
  && (og)
  || (eller)
- ! (betyr NOT eller IKKE)
+ ! ( NOT eller IKKE)
 
  *Ve (&&):
 

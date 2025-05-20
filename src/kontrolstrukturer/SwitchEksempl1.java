@@ -32,8 +32,8 @@ public class SwitchEksempl1 {
         /* if (regneart.equals("+")){
             resultat = tall1 + tall2;
 
-            //  iki string'in içeriklerini (değerlerini)
-            //  karşılaştırmak için equals() metodu kullanılır.
+            //? iki string'in içeriklerini (değerlerini)
+            //? karşılaştırmak için equals() metodu kullanılır.
             //Java'da bir string (metin) karşılaştırma işlemidir
             //equals() metodu ile regneart değişkeninin içeriği
             // belirli bir string ile (örneğin "+", "-", "*", "/") karşılaştırılır.

@@ -53,7 +53,7 @@ int sonuc = matematikNesnesi.kare(5);
 * Bu çok daha basit ve kolaydır çünkü nesne oluşturmamıza gerek kalmaz.
 *Diyelim ki, bir dairenin alanını hesaplayan bir statik metot yapmak istiyoruz.
 * Bu metodu Daire sınıfında şöyle tanımlarız:
-* class Daire {
+class Daire {
     public static double alanHesapla(double yaricap) {
         return 3.14 * yaricap * yaricap;
     }

@@ -19,7 +19,7 @@ bu bir liste, tablos vb. olabilir.Java da bellekte verileri saklamanin
 • size - finner lengden på listen- dizinin uzunlugunu bulur- length metod degil sabit bir degerdir
 • trimToSize - optimaliserer minnet etter sletting (forandrer ingenting)- bellek optimizasyonu icin kullanilir
 Ligger i pakken java.util.ArrayList;
-• ArrayList<String> liste = new ArrayList<>();  - syntax bu
+• ArrayList<String> liste = new ArrayList<>();  - syntax bu   ArrayList<String> listeName = new Arraylist<>();
 <> bu parantez de hangi sinif yada tur oldugu yazilir
 bu listede saklanan bir nesneler toplulugunu ifade eder.
 liste adi verilen bir nesne listesi olur
@@ -34,6 +34,15 @@ class PersonList{
 }
 public class AarrayLists {
     public static void main(String[] args) {
+
+        ArrayList<PersonList> personlistesi = new ArrayList<>();
+        PersonList ayse = new PersonList();
+        ayse.navn = "ayse";
+        ayse.alder = 34;
+        personlistesi.add(ayse);
+        if (personlistesi.contains(ayse));
+        System.out.println("ayse er i lista");
+
         ArrayList<PersonList> personer = new ArrayList<>();
         PersonList ole = new PersonList();
         ole.navn = "Ole";
