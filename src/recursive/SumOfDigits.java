@@ -1,5 +1,5 @@
 package recursive;
-
+/*
 public class SumOfDigits {
 
     // Recursive method to calculate sum of digits
@@ -12,3 +12,4 @@ public class SumOfDigits {
         System.out.println("Sum of digits of " + number + " is: " + sumOfDigits(number));
     }
 }
+*/

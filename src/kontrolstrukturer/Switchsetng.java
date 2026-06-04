@@ -3,6 +3,7 @@ package kontrolstrukturer;
 public class Switchsetng {
     public static void main(String[] args) {
         int gün = 3;
+
         switch (gün) {
             case 1:
                 System.out.println("Pazartesi");

@@ -1,5 +1,5 @@
 package recursive;
-
+/*
 public class FibonacciRecursive {
     public static int fibonacci(int n) {
         if (n <= 0) return 0;       // Base case for n = 0
@@ -17,3 +17,4 @@ public class FibonacciRecursive {
 
     }
 }
+*/
